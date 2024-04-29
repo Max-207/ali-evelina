@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.img-mond {
+    height: 100vh;
+    display: flex;
+}
+
+.btn-weiter {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 250px;
+    height: 100px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border: 1px solid black;
+    border-radius: 10px;
+}
